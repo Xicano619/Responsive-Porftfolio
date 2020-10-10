@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <Title>About Me</Title>
-    
+
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -17,50 +18,65 @@
     <!-- Navbar with name on the far left -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Ivan Sillas-Navarro</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="navbar-nav .justify-content-end">
-            
-            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
-            
+
+
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+
+                </li>
+            </ul>
         </div>
-        
+
     </nav>
     <!-- END Nav-->
+    <br>
+    <br>
     <!-- Main content with img (of self), overall Grid -->
-    <main class="container-fluid">
+    <main class="container">
         <!-- Row with Header -->
         <div class="row">
-        <div class="col-lg-8">
-            <div class="page-header">
-                <h2>About Me</h2>
-            </div>
-            <!-- Column w/ img -->
-            <div class="row">
-                <div class="col-md-3">
-                    <img class="img img-thumbnail" src="http://placehold.it./200x200">
+            <div class="col-sm-12">
+                <div class="page-header">
+                    <h2>About Me</h2>
                 </div>
-                <!-- Paragraph Col -->
-                <div class="col-lg-8">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti quam, eligendi officiis praesentium magni doloremque. Natus vitae, quos aspernatur reprehenderit similique sed veritatis nihil, omnis consectetur sit qui iste.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ipsa doloribus, tempore perferendis porro eos nihil labore ipsam veritatis quo iure! Quae quisquam dolore error sapiente facere magni exercitationem. Natus.</p>
-            </div>
+                <hr>
+                <!-- Column w/ img -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img id="aboutPic" class="img img-thumbnail float-left" src="./Profile-Pic.JPG" alt="Image of ">
 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deleniti quam, eligendi
+                            officiis praesentium magni doloremque. Natus vitae, quos aspernatur reprehenderit similique
+                            sed veritatis nihil, omnis consectetur sit qui iste.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ipsa doloribus, tempore
+                            perferendis porro eos nihil labore ipsam veritatis quo iure! Quae quisquam dolore error
+                            sapiente facere magni exercitationem. Natus.</p>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     </main>
-    <footer>
+    <footer class="navbar-dark bg-dark fixed-bottom text-center">
         <!-- Icon centered -->
+        <h1>Ivan</h1>
     </footer>
 
 
 
 </body>
+
 </html>

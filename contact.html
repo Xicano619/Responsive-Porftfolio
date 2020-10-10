@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <Title></Title>
-    
+
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./contactstyle.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 
@@ -20,58 +22,76 @@
     <!-- Navbar with name on the far left -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Ivan Sillas-Navarro</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="navbar-nav .justify-content-end">
-            
-            <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
-            
+
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+
+                </li>
+            </ul>
         </div>
-        
+
     </nav>
+    <br>
+    <br>
     <!-- END Nav-->
     <div class="container">
         <div class="header-page">
             <h1>Contact</h1>
         </div>
+        
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-sm-8">
+                <hr>
 
+
+
+                <!-- Horizontal form grid with: name,email and message options -->
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
-        <!-- Horizontal form grid with: name,email and message options -->
-        <form>
-            <div class="form-group row">
-              <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Name</label>
-              <div class="col-sm-4">
-                <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-4">
-                <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Message</label>
-              <div class="col-sm-4">
-                <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
-              </div>
-            </div>
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="navbar-dark bg-dark fixed-bottom text-center">
+        <!-- Icon centered -->
+        <h1>Ivan</h1>
+    </footer>
+
 
 
 
 
 
 </body>
-    
+
 </html>
