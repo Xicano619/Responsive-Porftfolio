@@ -1,9 +1,16 @@
 body {
     font-family: 'Lora', serif;
 }
+/* styled primary column */
+.col-lg-8,
+.col-sm-8 {
+    background-color: whitesmoke;
+}
+#aboutstyle {
+    background-color: whitesmoke;
+}
 
 #aboutPic {
     height: 300px;
     margin-right: 25px;
 }
-
