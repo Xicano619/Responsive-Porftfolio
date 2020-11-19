@@ -1,144 +1,192 @@
 <!DOCTYPE html>
 <html lang="us-en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+    <title>My Portfolio</title>
 
-    <Title>My Portfolio</Title>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
 
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <script
+      src="https://kit.fontawesome.com/da76027378.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-    <script src="https://kit.fontawesome.com/da76027378.js" crossorigin="anonymous"></script>
-
-</head>
-
-
-<body>
+  <body>
     <!-- Navbar with name on the far left -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Ivan Sillas-Navarro</a>
+      <a class="navbar-brand" href="#">Ivan Sillas-Navarro</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <hr>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <hr />
 
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-
-                </li>
-            </ul>
-        </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <br>
-    <br>
+    <br />
+    <br />
     <!-- END Nav-->
     <!-- Main content with img (of self), overall Grid -->
     <main class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="page-header">
-                    <h1>Portfolio</h1>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="page-header">
+            <h1>Portfolio</h1>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4">
+              <!-- Insert card class to portray previous projects -->
+              <div class="card">
+                <img
+                  src="./assets/Scratch-Game.PNG"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="Scratch programming, previous project"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Scratch-Butterfly-Game</h5>
+                  <p class="card-text">
+                    This project was part of a learning module in which I
+                    created a game using the Scratch programming site. In the
+                    game, the user-character's (the butterfly) goal is to eat
+                    the cake, as many times possible.
+                  </p>
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <!-- Insert card class to portray previous projects -->
-                        <div class="card">
-                            <img src="./assets/Scratch-Game.PNG" class="img img-thumbnail card-img-top" alt="Scratch programming, previous project">
-                            <div class="card-body">
-                                <h5 class="card-title">Scratch-Butterfly-Game</h5>
-                                <p class="card-text">This project was part of a learning module in which I created a game using the Scratch programming site. In the game, the user-character (butterfly) goal is to eat the cake until it reaches 10. </p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <img src="./assets/HoriseonIMG.PNG" class="img img-thumbnail card-img-top" alt="Image of marketing site, people working together at the office.">
-                            <div class="card">
-                                <h5 class="card-title">Horiseon Marketing Agenc</h5>
-                                <p class="card-text">This project for the marketing agency which was refactored to make accessible and responsive.</p>
-                                
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <img src="http://placehold.it./250x250" class="img img-thumbnail card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <img src="http://placehold.it./250x250" class="img img-thumbnail card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="http://placehold.it./250x250" class="img img-thumbnail card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="http://placehold.it./250x250" class="img img-thumbnail card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img 
+                  
+                  src="./assets/HoriseonIMG.PNG"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="Image of marketing site, people working together at the office."
+                />
+                <div class="card">
+                  <h5 class="card-title">Horiseon Marketing Agency</h5>
+                  <p class="card-text">
+                    The website of a marketing agency (Horiseon) was refactored,
+                    upgrading, so that it is accessible and responsive.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  
+                  src="http://placehold.it./250x250"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img
+                  src="http://placehold.it./250x250"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="http://placehold.it./250x250"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="http://placehold.it./250x250"
+                  class="img img-thumbnail card-img-top img-size"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <footer class="navbar-dark bg-dark fixed-bottom text-center">
-        <!-- Icon centered -->
-        <i class="fas fa-chess-knight"></i>
-    </footer>
-</body>
+    <br />
+    <br />
+    <br />
+    <br />
 
+    <footer class="navbar-dark bg-dark fixed-bottom text-center">
+      <!-- Icon centered -->
+      <i class="fas fa-chess-knight"></i>
+    </footer>
+  </body>
 </html>
