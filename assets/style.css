@@ -11,9 +11,13 @@ body {
 }
 
 #aboutPic {
-    height: 300px;
-    margin-right: 25px;
-}
+    background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+} 
+
 /* Set all img card-size to 250x250 px */
 .img-size {
     background-repeat: no-repeat;
