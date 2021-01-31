@@ -1,87 +1,133 @@
 <!DOCTYPE html>
 <html lang="us-en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
+    <title></title>
 
-    <Title></Title>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
 
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+    <script
+      src="https://kit.fontawesome.com/da76027378.js"
+      crossorigin="anonymous"
+    ></script>
+    <link src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"/></link>
+  </head>
 
-    <script src="https://kit.fontawesome.com/da76027378.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
+  <body>
+    <header>
     <!-- Navbar with name on the far left -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Ivan Sillas-Navarro</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#">Iván Sillas-Navarro</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
-
-                </li>
-            </ul>
-        </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <div class="title-overlay justify-content-center">
+        <h1 class="main-title-static" style="transform: translateY(0%);">Contact</h1>
+    </div>
+    </header>
     <!-- END Nav-->
-    <br>
-    <br>
+
+    <br />
+    <br />
 
     <div class="container">
-        
-         <div class="row">
-            <div class="col-sm-8">
-                <div class="header-page">
-                    <h1>Contact</h1>
-                </div>
-                <hr>
-             <!-- Horizontal form grid with: name,email and message options -->
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div class="row">
+        <div class="col-sm-6">
+          <hr />
+          <!-- Horizontal form grid with: name,email and message options -->
 
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+          <p>
+            <label>Ivan.sillasnavarro@gmail com</label>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/ivan-sillas-navarro-018662182/"
+            target="_blank"><img src="./assets/images/InIcon.png" alt=""><span class="media-text">LinkedIn</span></a>
+          </p>
+          <p>
+              <a href="https://github.com/Xicano619"
+              target="_blank"><img src="./assets/images/github-24.png" alt=""><span class="media-text">GitHub</span></a>
+          </p>
         </div>
+        <div class="col-sm-6">
+          <hr />
+          <!-- Horizontal form grid with: name,email and message options -->
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
 
     <footer class="navbar-dark bg-dark fixed-bottom text-center">
-        <!-- Icon centered -->
-        <i class="fas fa-chess-knight"></i>
+      <!-- Icon centered -->
+      <i class="fas fa-chess-knight"></i>
     </footer>
-</body>
-
+  </body>
 </html>
