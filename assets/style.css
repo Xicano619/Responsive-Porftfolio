@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 body {
     font-family: 'Lora', serif;
 }
@@ -24,6 +30,15 @@ body {
   width: 250px;
   height: 250px;
 }
-.media-text {
-  
+.main-title {
+  width: 70px;
+  height: 300px;
+  font-size: 100PX;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.main-email {
+  font-size: 1.5em;
 }
