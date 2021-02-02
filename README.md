@@ -1,6 +1,6 @@
 # Responsive-Portfolio
 ##### OVERVIEW
-The focus of this project was centered around creating a professional portfolio using Boostrap grids and CSS. Three files were created: About me file, contact file and portfolio file, linked together. 
+The portfolio is a ever transforming live document of the journey surfing through the field.
 
 # AboutMe Page
 This file is completely designed using BootStrap grids: navbar, main, and footer. This file's content proliferates who I am. 
