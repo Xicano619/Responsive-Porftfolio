@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
 
-        <footer className="text-center" style="background-color:dimGrey;">
+        <footer className="text-center" style={{ backgroundColor: "#696969"}}>
             <div class="icon-container">
               
               <p className=" fixed-bottom ">Ivan.Sillasnavarro@gmail.com
