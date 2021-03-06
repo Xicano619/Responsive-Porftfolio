@@ -14,13 +14,6 @@ const Main = () => {
                 <Footer/>
             </Container>
         );
-
-
     };
-
-
-
-
-
 
 export default Main;
