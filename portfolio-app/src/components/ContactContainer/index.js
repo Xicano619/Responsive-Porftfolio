@@ -3,6 +3,7 @@ import { Col, Row, Container } from '../Grid/index';
 import NavBar from '../NavBar/index';
 import iconLinkIn from '../assets/images/icons8-linkedin-48.png';
 import iconGitHub from '../assets/images/icons8-github-48.png';
+import '../ContactContainer/ContactContainer.css';
 
 const ContactContainer = () => {
     
@@ -12,6 +13,7 @@ const ContactContainer = () => {
             <div className="container">
                 <h1 className="main-title">Contact</h1>
             </div>
+            <br/>
             <Row>
                 <Col size='sm-4'>
                     <div className="test-wrapper">
@@ -25,6 +27,7 @@ const ContactContainer = () => {
                     </div>
                 </Col>
                 <br/>
+                <Col size='sm-4'></Col>
                 <Col size='sm-4'>
                     <p>
                         <label class="main-email">Ivan.sillasnavarro@gmail.com</label>

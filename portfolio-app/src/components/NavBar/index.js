@@ -1,8 +1,6 @@
 import React from 'react';
-import BioPage from '../../pages/Main';
-import ContactPage from '../../pages/Contact';
-import PortfolioPage from '../../pages/Portfolio';
-
+import {Link} from "react-router-dom";
+import '../NavBar/Nav.css';
 
 const NavBar = () => {
     return (
@@ -10,13 +8,13 @@ const NavBar = () => {
             <a className="navbar-brand" >Iván Sillas-Navarro</a>
             <ul className="nav justify-content-end">
                 <li className="nav-item">
-                    <a className="nav-link active" href={BioPage}>About <span className="sr-only">(current)</span></a>
+                    <Link to="/">About</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href={PortfolioPage}>Portfolio</a>
+                    <Link to="/Portfolio">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href={ContactPage}>Contact</a>
+                    <Link to="/Contact">Contact</Link>
 
                 </li>
             </ul>

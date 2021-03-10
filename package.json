@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "name": "Responsive-Portfolio",
+  "description": "The portfolio portrays the story behind the journey of coding.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xicano619/Responsive-Porftfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xicano619/Responsive-Porftfolio/issues"
+  },
+  "homepage": "https://github.com/Xicano619/Responsive-Porftfolio#readme"
+}
